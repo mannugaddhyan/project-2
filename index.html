@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolyTale - AI-Powered Polymarket Intelligence</title>
+    <meta name="description" content="PolyTale combines AI and prediction markets to deliver real-time market intelligence and automated trading insights.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>PolyTale</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#token" class="nav-link">Token</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    AI-Powered <span class="gradient-text">Polymarket</span> Intelligence
+                </h1>
+                <p class="hero-description">
+                    PolyTale combines advanced AI with prediction market data to deliver real-time market intelligence, 
+                    automated trend detection, and smart trading insights for the Polymarket ecosystem.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">Explore Features</a>
+                    <a href="https://twitter.com/polytaleai" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-twitter"></i> Follow @polytaleai
+                    </a>
+                    <a href="https://twitter.com/pricedisco_" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-twitter"></i> Developer
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="ai-visualization">
+                    <div class="ai-brain">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="data-points">
+                        <div class="data-point"></div>
+                        <div class="data-point"></div>
+                        <div class="data-point"></div>
+                        <div class="data-point"></div>
+                        <div class="data-point"></div>
+                    </div>
+                </div>
+                
+                <div class="floating-card">
+                    <div class="card-header">
+                        <div class="status-indicator"></div>
+                        <span>Live Market Analysis</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="metric">
+                            <span class="metric-label">Markets Monitored</span>
+                            <span class="metric-value" data-target="1940">194</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">AI Confidence</span>
+                            <span class="metric-value" data-target="94"></span><span class="metric-suffix">%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Volume Tracked</span>
+                            <span class="metric-prefix"><span><span class="metric-value" data-target="2.4">30</span><span class="metric-suffix">M</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Intelligent Market Features</h2>
+                <p>Powerful AI systems working 24/7 to give you the edge in prediction markets</p>
+            </div>
+            
+            <div class="features-grid">
+                <!-- Feature 1: AI Assistant -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>@polytaleai AI Assistant Agent <span class="live-badge"><span class="live-dot"></span>Live</span></h3>
+                    <p>
+                        Our intelligent Twitter bot monitors mentions and instantly provides relevant Polymarket data 
+                        using advanced RAG (Retrieval-Augmented Generation) technology. Simply mention @polytaleai 
+                        with any topic and get instant market insights.
+                    </p>
+                    <div class="feature-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-search"></i>
+                            <span>Smart Keyword Extraction</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-brain"></i>
+                            <span>Gemini AI-Powered Analysis</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-bolt"></i>
+                            <span>Real-time Market Matching</span>
+                        </div>
+                    </div>
+                    <div class="feature-demo">
+                        <div class="demo-tweet">
+                            <div class="tweet-header">
+                                <i class="fab fa-twitter"></i>
+                                <span>@user mentions @polytaleai</span>
+                            </div>
+                            <div class="tweet-content">
+                                "What are the odds of Bitcoin hitting $100k this year?"
+                            </div>
+                            <div class="tweet-response">
+                                <strong>@polytaleai responds:</strong><br>
+                                "BREAKING: Bitcoin $100K by 2024? Current market shows 73% probability with $2.1M volume..."
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Market Monitor -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>24/7 Market Intelligence<span class="live-badge"><span class="live-dot"></span>Live</span></h3>
+                    <p>
+                        Our autonomous monitoring system continuously scans Polymarket for trending events, 
+                        high-volume opportunities, and emerging betting patterns. Get breaking news alerts 
+                        about the most profitable market movements.
+                    </p>
+                    <div class="feature-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-eye"></i>
+                            <span>Continuous Market Scanning</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-fire"></i>
+                            <span>Trending Event Detection</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-newspaper"></i>
+                            <span>Breaking News Style Alerts</span>
+                        </div>
+                    </div>
+                    <div class="feature-demo">
+                        <div class="demo-alert">
+                            <div class="alert-header">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span>Live Market Alert</span>
+                            </div>
+                            <div class="alert-content">
+                                <strong>BREAKING:</strong> NYC Mayoral Race heating up! Eric Adams drops to 1%, 
+                                now a race between Mamdani & Cuomo. Volume: $847K
+                            </div>
+                            <div class="alert-metrics">
+                                <span class="metric">Volume: $847K</span>
+                                <span class="metric">Confidence: 96%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Feature 3: Smart Money Agent -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Smart Money Agent <span class="live-badge"><span class="live-dot"></span>Live</span></h3>
+                    <p>
+                        Follows top trader wallets across Polymarket and alerts the moment they place
+                        significant bets. Uses Vertex AI Gemini to generate concise, FOMO-ready summaries
+                        and posts real-time updates while avoiding duplicates.
+                    </p>
+                    <div class="feature-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-eye"></i>
+                            <span>Whale Wallet Tracking</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-bell"></i>
+                            <span>Instant Bet Alerts</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-brain"></i>
+                            <span>Gemini-Powered Summaries</span>
+                        </div>
+                    </div>
+                    <div class="feature-demo">
+                        <div class="demo-alert">
+                            <div class="alert-header">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span>Whale Move Detected</span>
+                            </div>
+                            <div class="alert-content">
+                                <strong>JUST IN:</strong> Wallet "jerk-mate" loads $25K on "Bitcoin $100K by 2024" at 65%.
+                                AI summary prepared. Posting update...
+                            </div>
+                            <div class="alert-metrics">
+                                <span class="metric">Value: $25,000</span>
+                                <span class="metric">Confidence: 94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mystery Box 2 -->
+                <div class="feature-card mystery-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="scratch-overlay">
+                        <div class="scratch-pattern"></div>
+                        <div class="scratch-text">
+                            <i class="fas fa-question"></i>
+                            <h4>Coming Soon</h4>
+                            <p>Another innovation in development...</p>
+                        </div>
+                    </div>
+                    <div class="mystery-content">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Mystery Feature #2</h3>
+                        <p>Next-generation market intelligence tool</p>
+                        <div class="feature-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-lightning-bolt"></i>
+                                <span>Lightning Fast</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Secure & Reliable</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Market Leading</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="technology">
+        <div class="container">
+            <div class="tech-content">
+                <h2>Powered by Advanced AI</h2>
+                <p>PolyTale leverages cutting-edge technology to deliver superior market intelligence</p>
+                
+                <div class="tech-stack">
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fas fa-brain"></i>
+                        <h4>Vertex AI Gemini-2.5 Pro</h4>
+                        <p>Advanced language models for content analysis and generation</p>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fas fa-database"></i>
+                        <h4>Polymarket RAG Engine</h4>
+                        <p>Intelligent retrieval system for relevant market data</p>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fas fa-network-wired"></i>
+                        <h4>Real-time APIs</h4>
+                        <p>Direct integration with Polymarket and Twitter APIs</p>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="400">
+                        <i class="fas fa-cog"></i>
+                        <h4>Automated Systems</h4>
+                        <p>24/7 autonomous monitoring and response capabilities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Token Section -->
+    <section id="token" class="token">
+        <div class="container">
+            <div class="token-content">
+                <div class="token-info">
+                    <h2>$PolyTale Token</h2>
+                    <p>
+                        The $PolyTale token powers our ecosystem, providing holders with premium features, 
+                        exclusive market insights, and governance rights in the PolyTale protocol.
+                    </p>
+                    
+                    <div class="token-features">
+                        <div class="token-feature">
+                            <i class="fas fa-crown"></i>
+                            <div>
+                                <h4>Premium Access</h4>
+                                <p>Advanced AI features and priority market alerts</p>
+                            </div>
+                        </div>
+                        <div class="token-feature">
+                            <i class="fas fa-vote-yea"></i>
+                            <div>
+                                <h4>Governance Rights</h4>
+                                <p>Vote on protocol upgrades and feature development</p>
+                            </div>
+                        </div>
+                        <div class="token-feature">
+                            <i class="fas fa-chart-bar"></i>
+                            <div>
+                                <h4>Exclusive Insights</h4>
+                                <p>Access to premium market analysis and predictions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="token-actions">
+                        <button class="btn btn-primary">Coming Soon</button>
+                        <a href="#" class="btn btn-outline">Whitepaper</a>
+                    </div>
+                </div>
+                
+                <div class="token-visual">
+                    <div class="token-card">
+                        <div class="token-symbol">$PolyTale</div>
+                        <div class="token-name">PolyTale Token</div>
+                        <div class="token-stats">
+                            <div class="stat">
+                                <span class="stat-label">Total Supply</span>
+                                <span class="stat-value">TBA</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Network</span>
+                                <span class="stat-value">Solana (PumpFun)</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Contract</span>
+                                <span class="stat-value contract-address" title="Click to copy">B8bFLQ...f1fpump</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Connect with PolyTale</h2>
+                <p>Follow our journey and get the latest updates</p>
+                
+                <div class="social-links">
+                    <a href="https://twitter.com/polytaleai" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                        <span>@polytaleai</span>
+                    </a>
+                    <a href="https://twitter.com/pricedisco_" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                        <span>Developer</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PolyTale</h3>
+                    <p>AI-Powered Polymarket Intelligence</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Features</h4>
+                    <ul>
+                        <li><a href="#features">AI Assistant</a></li>
+                        <li><a href="#features">Market Monitor</a></li>
+                        <li><a href="#token">Token</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="https://twitter.com/polytaleai" target="_blank">Twitter</a></li>
+                        <li><a href="#">Telegram</a></li>
+                        <li><a href="#">Discord</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Whitepaper</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PolyTale. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
